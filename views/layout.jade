@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div#scaffold
+      div#header
+        include ./header.jade
+      div#nav
+        include ./navbar.jade
+      div#main
+        block content
+      div#footer footer (100px +)
+    
+    
+    
